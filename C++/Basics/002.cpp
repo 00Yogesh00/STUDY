@@ -4,14 +4,16 @@ using namespace std;
 
 int main()
 {
-	int a,b,c;
+	int a,b;
 
 	a = 5;
 	b = 3;
 
-	c = a + b;
-
-	cout<<a<<" + "<<b<<" = "<<c;
+	cout<<"\n"<<a<<" + "<<b<<" = "<<a+b;
+	cout<<"\n"<<a<<" - "<<b<<" = "<<a-b;
+	cout<<"\n"<<a<<" * "<<b<<" = "<<a*b;
+	cout<<"\n"<<a<<" / "<<b<<" = "<<(float)a/b;
+	cout<<"\n"<<a<<" % "<<b<<" = "<<a%b;
 
 	return 0;
 }

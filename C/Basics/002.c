@@ -2,14 +2,18 @@
 
 int main()
 {
-	int a,b,c;
+	int a,b;
 
 	a = 5;
 	b = 3;
 
-	c = a + b;
+	printf("\n %d + %d = %d \n",a,b,a+b);
+	printf("\n %d - %d = %d \n",a,b,a-b);
+	printf("\n %d * %d = %d \n",a,b,a*b);
+	printf("\n %d / %d = %f \n",a,b,(float)a/b);
+	printf("\n %d \% % %d = %d \n",a,b,a%b);
 
-	printf("%d + %d = %d",a,b,c);
+
 
 	return 0;
 }

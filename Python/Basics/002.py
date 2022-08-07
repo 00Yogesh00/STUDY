@@ -1,6 +1,9 @@
 a = 5
 b = 3
 
-c = a + b
 
-print(f"{a} + {b} = {c}")
+print(f"{a} + {b} = {a+b}")
+print(f"{a} - {b} = {a-b}")
+print(f"{a} * {b} = {a*b}")
+print(f"{a} / {b} = {a/b}")
+print(f"{a} % {b} = {a%b}")
